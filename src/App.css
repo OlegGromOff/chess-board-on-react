@@ -19,3 +19,16 @@
 .white {
   background-color: #fff;
 }
+
+@media screen and (max-width: 660px) {
+  .chess-block {
+    width: 320px;
+    height: 320px;
+
+  }
+
+  .chess-field {
+    width: 40px;
+    height: 40px;
+  }
+}
